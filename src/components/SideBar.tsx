@@ -30,6 +30,7 @@ export const SideBar = ({selectedGenreId, setSelectedGenreId}:SideBarProps) => {
     setSelectedGenreId(id);
   }
 
+  
   return (
       <nav className="sidebar">
         <span>Watch<p>Me</p></span>

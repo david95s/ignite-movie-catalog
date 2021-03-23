@@ -26,11 +26,12 @@ export const SideBar = ({selectedGenreId, setSelectedGenreId}:SideBarProps) => {
     });
   }, []);
 
+  
   function handleClickButton(id: number) {
     setSelectedGenreId(id);
   }
 
-  
+
   return (
       <nav className="sidebar">
         <span>Watch<p>Me</p></span>
